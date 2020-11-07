@@ -16,7 +16,7 @@ module.exports = {
     twitterUsername: "@rajahasware",
     author: "Ali Aliev",
   },
-
+  
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
