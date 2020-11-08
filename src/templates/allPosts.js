@@ -8,7 +8,7 @@ import {
   Pagination,
   Seo,
 } from "../components"
-import { H1, P } from "../elements"
+import { H1, P, ContentCardContainerWrapper } from "../elements"
 
 const allPosts = ({ pageContext, data }) => {
   const { currentPage, numPages } = pageContext
@@ -34,8 +34,8 @@ const allPosts = ({ pageContext, data }) => {
           orci in congue cursus nulla tincidunt facilisi.
         </P>
 
-
-        {posts.map(post => (
+        <ContentCardContainerWrapper>
+                  {posts.map(post => (
           <ContentCard
             key={post.node.frontmatter.slug}
             date={post.node.frontmatter.date}
@@ -44,6 +44,7 @@ const allPosts = ({ pageContext, data }) => {
             slug={post.node.frontmatter.slug}
           />
         ))}
+</ContentCardContainerWrapper>
 
       </Content>
 

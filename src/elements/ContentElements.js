@@ -5,7 +5,7 @@ export const ContentWrapper = styled.main`
   grid-row: 3 / span 5;
   background-color: ${props => props.theme.colors.light2};
   padding: ${props =>
-    `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};
+    `${props.theme.spacings.xLarge} ${props.theme.spacings.small}`};
   box-shadow: ${props => props.theme.shadows.shadow1};
   z-index: 10;
 
@@ -16,5 +16,19 @@ export const ContentWrapper = styled.main`
   @media ${props => props.theme.breakpoints.mobile} {
     padding: ${props =>
       `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
+  }
+`
+
+export const ContentCardContainerWrapper = styled.div`
+  display: flex;
+   
+  
+
+  @media ${props => props.theme.breakpoints.tablet} {
+    flex-direction:column;
+  }
+
+  @media ${props => props.theme.breakpoints.mobile} {
+    flex-direction:column;
   }
 `

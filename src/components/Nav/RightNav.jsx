@@ -5,6 +5,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  z-index: 20;
 
   li {
     padding: 18px 10px;
@@ -18,11 +19,12 @@ const Ul = styled.ul`
     top: 0;
     right: 0;
     height: 100vh;
-    width: 300px;
+    width: 100vw;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
 
     li {
+      margin: 0 auto;
       color: #fff;
     }
   }

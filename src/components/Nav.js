@@ -1,6 +1,8 @@
 import React from "react"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { NavWrapper } from "../elements"
+import Burger from './Nav/Burger';
+
 
 export const Nav = () => {
   const data = useStaticQuery(graphql`
@@ -16,6 +18,7 @@ export const Nav = () => {
       <Link to="/">
         <img src={data.logo.publicURL} alt="My Logo" />
       </Link>
+      <Burger/> 
     </NavWrapper>
   )
 }
