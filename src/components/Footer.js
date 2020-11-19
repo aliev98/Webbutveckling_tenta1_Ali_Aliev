@@ -8,6 +8,7 @@ import {
 } from "../elements"
 
 export const Footer = () => {
+
   const data = useStaticQuery(graphql`
     query {
       facebook: file(relativePath: { eq: "facebook.svg" }) {
@@ -24,6 +25,7 @@ export const Footer = () => {
       }
     }
   `)
+
 
   return (
     <FooterWrapper>

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const CardWrapper = styled.div`
-margin: 2rem 1rem;
+  margin: 2rem 1rem;
   width: 33%;
   padding: 1rem;
   display: flex;
@@ -12,7 +12,7 @@ margin: 2rem 1rem;
 
 
   @media screen and (max-width:1041px){
-  margin: 2rem 1rem;
+  margin: 2rem 0rem;
   width: 100%;
   padding: 1rem;
   display: flex;
@@ -21,7 +21,4 @@ margin: 2rem 1rem;
   /* border: 3px solid ; */
   background-color:#FFF6F3;
   }
-
-
-
 `

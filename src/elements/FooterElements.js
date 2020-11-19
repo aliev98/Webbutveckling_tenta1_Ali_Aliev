@@ -13,6 +13,7 @@ export const FooterWrapper = styled.footer`
   }
 `
 
+
 export const FooterSocialWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -30,7 +31,7 @@ export const FooterSocialIcons = styled.div`
   margin-bottom: 2rem;
 
   img {
-    height: 70px;
+    height: 50px;
     padding: 0 1rem;
     transition: filter 0.3s ease;
   }

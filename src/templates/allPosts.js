@@ -11,6 +11,7 @@ import {
 import { H1, P, ContentCardContainerWrapper } from "../elements"
 
 const allPosts = ({ pageContext, data }) => {
+
   const { currentPage, numPages } = pageContext
   const isFirst = currentPage === 1
   const isLast = currentPage === numPages
@@ -23,7 +24,10 @@ const allPosts = ({ pageContext, data }) => {
     <Container>
       <Seo />
       <FeatureImage />
+
+
       <Content>
+      
         <H1 textAlign="center" margin="0 0 1rem 0">
           Elit rhoncus tellus proin parturient.
         </H1>
@@ -33,9 +37,9 @@ const allPosts = ({ pageContext, data }) => {
           volutpat risus quis lorem pulvinar et pulvinar sit dictum. Eget orci,
           orci in congue cursus nulla tincidunt facilisi.
         </P>
-
-        <ContentCardContainerWrapper>
-                  {posts.map(post => (
+        
+<ContentCardContainerWrapper>
+         {posts.map(post => (
           <ContentCard
             key={post.node.frontmatter.slug}
             date={post.node.frontmatter.date}
@@ -54,7 +58,8 @@ const allPosts = ({ pageContext, data }) => {
         prevPage={prevPage}
         nextPage={nextPage}
       />
-      
+
+
     </Container>
   )
 }

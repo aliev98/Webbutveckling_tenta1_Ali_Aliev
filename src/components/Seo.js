@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 export const Seo = ({ description, keywords, title, image, url, author }) => {
   const site = "yoururl.netlify.app"
-
+  
   return (
     <StaticQuery
       query={detailsQuery}

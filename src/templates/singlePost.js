@@ -17,10 +17,12 @@ const singlePost = ({ data }) => {
         description={data.mdx.frontmatter.excerpt}
       />
       <FeatureImage fixed={featureImage} />
+      
       <Post>
-        <H1 margin="0 0 2rem 0">{data.mdx.frontmatter.title}</H1>
+        <H1 margin= "0 0 2rem 0">{data.mdx.frontmatter.title}</H1>
         <MDXRenderer>{data.mdx.body}</MDXRenderer>
       </Post>
+      
     </Container>
   )
 }
