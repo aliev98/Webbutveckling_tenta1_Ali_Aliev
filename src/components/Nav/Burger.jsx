@@ -38,14 +38,14 @@ const StyledBurger = styled.div`
       transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
     }
   }
-`;
+`
 
 const Burger = () => {
   const [open, setOpen] = useState(false)
   
   return (
     <>
-      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <StyledBurger open = {open} onClick = {() => setOpen(!open)}>
         <div />
         <div />
         <div />

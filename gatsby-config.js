@@ -11,12 +11,12 @@ module.exports = {
   siteMetadata: {
     title: "My MDX Blog",
     description: "A simple blog built with Gatsby and MDX",
-    url: "https://your-site.netlify.app/",
-    image:"https://frontend-magic.netlify.app/static/142900cccf67f74f52182a3914449904/37155/hero-img.png",
-    twitterUsername: "@rajahasware",
+    url: "https://ali-aliev-webbapplikationerochmobilutveckling.netlify.app/",
+    image: "C:\Users\kuba-\OneDrive\Skrivbord\Webbutveckling_tenta1_Ali_Aliev\src\images",
+    twitterUsername: "@aliev98",
     author: "Ali Aliev",
   },
-  
+
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -41,7 +41,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-
+    
     {
       resolve: `gatsby-plugin-sharp`,
       options: {

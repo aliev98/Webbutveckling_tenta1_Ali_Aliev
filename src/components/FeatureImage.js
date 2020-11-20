@@ -4,8 +4,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import { FeatureImageWrapper } from "../elements"
 
 export const FeatureImage = ({ fixed }) => {
-  const data = useStaticQuery(graphql`
-    query {
+  
+  const data = useStaticQuery(graphql`  
+  query {
       imageSharp (fixed: { originalName: { eq: "palmtree.jpg" } }) {
         fixed {
           ...GatsbyImageSharpFixed
