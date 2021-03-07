@@ -1,37 +1,3 @@
-
-
-## In this file I will give intructions on how to succesfully run this project.
-
-1. Installing gatsby
-
-
-You need to install gatsby on your computer provided that you don't already have it installed
-```shell
-    # Copy this into command prompt
-     npm install -g gatsby-cli
-```
-
-Don't forget to also have Node.js installed on your computer, this is required for the npm commands and localhost to work.
-
-
-2. Installing packages
-
-After cloning the project you need to install all the packages needed for the project.
-
-```shell
-     npm install
-```
-
-3. Running the site
-
-Now you can check if you are able to run the gatsby site by writing this command in the terminal
-```shell
-    gatsby develop
-```
-
-You can use style components for styling when you edit the code.
-
-
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
@@ -46,7 +12,7 @@ Kick off your project with this hello-world boilerplate. This starter ships with
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
 
-<!-- ## 🚀 Quick start
+## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
 
@@ -114,7 +80,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-12. **`README.md`**: A text file containing useful reference information about your project. -->
+12. **`README.md`**: A text file containing useful reference information about your project.
 
 ## 🎓 Learning Gatsby
 

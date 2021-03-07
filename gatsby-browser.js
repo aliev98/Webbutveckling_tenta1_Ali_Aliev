@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
         height: 100%;
         background-color: ${props => props.theme.colors.light1};
     }
+
 `
 
 const components = {
