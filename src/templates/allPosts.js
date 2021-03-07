@@ -27,7 +27,6 @@ const allPosts = ({ pageContext, data }) => {
 
 
       <Content>
-      
         <H1 textAlign="center" margin="0 0 1rem 0">
           Elit rhoncus tellus proin parturient.
         </H1>
