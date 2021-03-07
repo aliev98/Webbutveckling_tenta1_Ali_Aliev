@@ -6,6 +6,7 @@
 
 
 You need to install gatsby on your computer provided that you don't already have it installed
+
 ```shell
     # Copy this into command prompt
      npm install -g gatsby-cli
@@ -16,7 +17,7 @@ Don't forget to also have Node.js installed on your computer, this is required f
 
 2. Installing packages
 
-After cloning the project you need to install all the packages needed for the project.
+After cloning the project you need to install all the packages needed for the project. In visual studio code, open up the terminal window and type this command.
 
 ```shell
      npm install
@@ -24,7 +25,8 @@ After cloning the project you need to install all the packages needed for the pr
 
 3. Running the site
 
-Now you can check if you are able to run the gatsby site by writing this command in the terminal
+Now you should be able to run the gatsby site by writing this command in the terminal
+
 ```shell
     gatsby develop
 ```
